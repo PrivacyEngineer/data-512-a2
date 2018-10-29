@@ -1,8 +1,8 @@
-# Bias in Data
+# Bias in Data.
 
 ### Name: Francisco Javier Salido Magos.
 
-Date: October 31st, 2018.
+Date: October 29th, 2018.
 
 ## Goal
 
@@ -61,7 +61,6 @@ Process:
 5. Saved a copy of the above table in ../results/results.csv.
 6. Constructed the five tables listed below in the "Visualizations Created" section.
 
-
 ## Visualizations Created
 
 No graphics were created, but there are five tables that summarize our results, and they can be found in the Jupyter notebook:
@@ -71,6 +70,26 @@ No graphics were created, but there are five tables that summarize our results, 
 - A table showing the top 10 countries as ranked by the ratio of Featured Articles (FA) and Good Articles (GA), as ranked by ORES, to total articles for that country.
 - A table showing the 42 countries that appear in the dataset but have no articles ranked FA or GA associated with them.
 - A table showing the bottom 10 countries that have at least one article ranked as either FA or GA, and rank lowest by their ratio of FA and GA, as ranked by ORES, to total articles for that country.
+
+## Conclusions
+
+The type of bias I was expecting to find in the articles dataset was the overrepresentation of articles written about English-speaking countries, particularly the U.S.A. and U.K., followed by articles about non-English speaking Western European countries, India and China, not only in terms of quantity, but also in terms of quality. This expectation was based primarily on the fact that these are the countries that tend to dominate the news in the U.S.A. Furthermore, I really did not expect to find any articles at all on small, out-of-the way countries, like Swaziland, San Marino or Lichtenstein, about federated states of larger countries, like Daguestan, or about far away islands that are part of former colonial powers, such as Guadeloupe and Martinique.
+
+There were several things that I found surprising about the results. The first was the fact that the Figshare dataset did not seem to be well-curated. I can understand differences of spelling in country names, but the use of demonyms in lieu of actual country names, misspelings in the names of countries that regularly appear in the news, like Hondura instead of Honduras, and references to old languages or to prehispanic ethnic groups, like Incas, were a complete surprise.
+
+In terms of absolute number of articles in the database, the results were largely in line with my expectations as out of the top twenty countries by absolute numbers, only Pakistan, Iran and Nigeria would not fall into my expected list. The surprising facts were that the countries with the largest populations tend to have really low article to population ratios. Five of the top ten countries in population appear in the bottom 10 in article to population ratio: India, China, Indonesia, Ethiopia and Bangladesh, with Brazil, the U.S.A. and Nigeria also ranking quite low.
+
+In terms of article quality, a really surprising data point was Belgium, with 500+ total articles and none that ranked as either FA or GA. Given the fact that Brussels is the seat of the EU parlament and other important EU government bodies, as well as NATO, this was unexpected. Switzerland was another surprise, with 400+ articles and none ranking as high quality. Out of the top ten countries as ranked by FA and GA articles as a proportion of total, the United States is the only country I expected would show up in the list, though I can justify the presence in this list of countries that appear regularly in the news like Saudi Arabia and, perhaps, Vietnam.
+
+Given that the Figshare database claims to contain "most English-language Wikipedia articles within the category 'Category:Politicians by nationality' " I have to conclude that, at lest in this area, Wikipedia is not very representative of what goes on in the World in general, or in the English-speaking world in particular. The largest countries in the world, either by population or by economic activity, are largely underrepresented both in terms of quantity and quality. A possible exception to this statement might be the United States, but there are also good points to argue the contrary. Smaller, out-of-the way countries like Tuvalu, San Marino and Palau seem to have an outsized representation when compared to their small populations. Finally, it's important to point out that important countries, in terms of population and of participation in the world economy, like Belgium and Japan, seem to be largely overlooked.
+
+My theory is that this situation could be explained by a combination of factors:
+
+1. Language is definitely a key factor, as would-be-authors in non-English speaking readers are not likely be interested in writing articles about local politicians that no one is going to read.
+
+2. English-speaking writers in relatively large countries, like the U.S.A., U.K. or Canada, are less likely to write in English about what is going on in other parts of the world, with the exception of high-profile conflicts, like those in the middle east.
+
+3. Finally, for larger, English-speaking countries, people are not likely to go to Wikipedia to learn about the comings, goings and platforms of local politicians. Politicians in islands in the Pacific and other small, touristy locations with comparatively large English-speaking populations and limited options in terms of news media may be more likely to leverage Wikipedia as a vehicle to make themselves known and/or communicate with their constituents.
 
 ## License
 
